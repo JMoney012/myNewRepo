@@ -10,8 +10,10 @@ public class ReversedString {
         System.out.println("\n\n" + "Type a word to use ReverseString" + "\n\n");
         rev = scanner.nextLine();
 
+
         //Store the user input in a String variable.
         String reverse = "";
+
 
         //Use a loop to reverse the string.
         for(int i =rev.length()-1; i>=0; i--)
@@ -19,6 +21,8 @@ public class ReversedString {
         {
             reverse = reverse + rev.charAt(i);
         }
+
+
         //Display the reversed string to the user.
         System.out.println("Here you go: " + reverse);
 
